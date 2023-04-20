@@ -45,7 +45,7 @@ global.sig = 'https://instagram.com/itx_ahmad.ali' //Link Instagrammu
 global.sgh = 'https://github.com/xIKRATOSx' //Link Githubmu
 global.sgc = 'https://chat.whatsapp.com/CLELmSuuVZaHSq1lOjmXhB'
 global.sdc = '-' //Fill it out using the Discord link, if there is one, just leave it
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, This is up to you to fill in :v
+global.snh = 'https://youtube.com/@Temo_FC' //Hmmm, This is up to you to fill in :v
 
 /*============== PAYMENT ==============*/
 global.pdana = '085736178354' //Nomor Danamu
@@ -112,17 +112,17 @@ global.botdate = `⫹⫺ Date: ${week} ${date}`
 global.bottime = `Time : ${wktuwib}`
 global.titlebot = '🐈‍⬛ ┊ ɪᴋʀᴀᴛᴏs ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
-global.logo = 'https://i.ibb.co/cc8jfkX/01.jpg'
+global.logo = 'https://ibb.co/zny6Pyg'
 
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/cc8jfkX/01.jpg' //Main Thumbnail
-global.thumb2 = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.thumbbc = 'https://i.ibb.co/cc8jfkX/01.jpg' //For broadcast
+global.thumb = 'https://i.ibb.co/vw7XL7W/elaina5.jpg' //Main Thumbnail
+global.thumb2 = 'https://i.ibb.co/vw7XL7W/elaina5.jpg'
+global.thumbbc = 'https://i.ibb.co/vw7XL7W/elaina5.jpg' //For broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumblvlup = 'https://i.ibb.co/cc8jfkX/01.jpg'
-global.hwaifu = ['https://i.ibb.co/cc8jfkX/01.jpg']
+global.thumblvlup = 'https://i.ibb.co/vw7XL7W/elaina5.jpg'
+global.hwaifu = ['https://i.ibb.co/vw7XL7W/elaina5.jpg']
 
 /*============== FlamingText ===========*/
 global.flaaa = [
