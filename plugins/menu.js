@@ -12,12 +12,12 @@ const { generateWAMessageFromContent, proto } = (await import('@adiwajshing/bail
 
 const defaultMenu = {
   before: `
-╭─────═[ المعلومات ]═─────⋆
+╭─────═[ Information ]═─────⋆
 │╭───────────────···
-┴│☂︎ *الأسم:* %name
-⬡│☂︎ *المنشن:* %tag
+┴│☂︎ *Name:* %name
+⬡│☂︎ *Tag:* %tag
 ┬╰────────────────···
-┠─────═[ اليوم ]═─────⋆
+┠─────═[ Today ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
 ⬡│☂︎ *Date:* %week %weton
@@ -25,7 +25,7 @@ const defaultMenu = {
 ⬡│☂︎ *Date Islamic:* %dateIslamic
 ┬│☂︎ *Time:* %time
 │╰────────────────···
-┠─────═[ معلومات البوت ]═─────⋆
+┠─────═[ BoT ]═─────⋆
 │╭────────────────···
 ┴│☂︎ *Name Bot:* %me
 ⬡│☂︎ *Mode:* %mode
