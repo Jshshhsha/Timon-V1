@@ -54,9 +54,9 @@ global.psaweria = 'https://saweria.com/XiaoYan021' //Link Saweriamu Kalo Nggada 
 
 /*============== NOMOR ==============*/
 global.nomorbot = '967779589581' //Nomor Bot
-global.nomorown = '96891103640' //Nomor Owner
+global.nomorown = '967779589581' //Nomor Owner
 global.namebot = '( تـيـمـون )' //Nama Bot
-global.nameown = '( صاحب البوت )' // Nama Owner
+global.nameown = '( أم تيمون )' // Nama Owner
 
 
 /*============== CHATGPT ==============*/
