@@ -13,7 +13,7 @@ let handler = async (m, { conn, args }) => {
 }
 handler.help = ['linkgroup']
 handler.tags = ['group']
-handler.command = /^(رابط.جروب)$/i
+handler.command = /^(رابط)$/i
 
 
 export default handler
