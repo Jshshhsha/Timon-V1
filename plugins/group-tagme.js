@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['tagme']
 handler.tags = ['group']
-handler.command = /منشنني
+handler.command = /^(tagme|منشنني)$/i
 
 handler.group = true
 
