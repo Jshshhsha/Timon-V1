@@ -14,7 +14,7 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['setppgrup']
 handler.tags = ['group']
 handler.alias = ['setppgc', 'setppgrup', 'setppgroup']
-handler.command = /^setpp(gc|grup|group)$/i
+handler.command = /^(حطها.خلفية)$/i
 handler.group = handler.admin = handler.botAdmin = true
 
 export default handler
