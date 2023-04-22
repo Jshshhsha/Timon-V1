@@ -43,6 +43,6 @@ const templateMessage = {
 await conn.sendMessage(m.chat, templateMessage, m)}
 handler.help = ['donasi']
 handler.tags = ['info']
-handler.command = ['الاوامر|القائمة']
+handler.command = /^(pengumuman|القائمة|announce|الاوامر)$/i
 
 export default handler
