@@ -504,7 +504,7 @@ const listMessage = {
 }
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(3554525555|755458558|\?)$/i
 
 handler.register = false
 handler.exp = 3
