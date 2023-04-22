@@ -1,4 +1,4 @@
-let handler = async (m, { conn, text }) => {
+هوlet handler = async (m, { conn, text }) => {
     if (!text) throw 'Who wants to be unbanned?'
     let who
     if (m.isGroup) who = m.mentionedJid[0]
@@ -10,7 +10,7 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['unban']
 handler.tags = ['owner']
-handler.command = /^unban(user)?$/i
+handler.command = /^(إلغاء)$/i
 handler.rowner = true
 
 export default handler
