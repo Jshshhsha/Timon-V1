@@ -5,8 +5,8 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['tagme']
 handler.tags = ['group']
-handler.command = /^tagme$/i
+handler.command = /منشنني
 
-handler.group = false
+handler.group = true
 
 export default handler
