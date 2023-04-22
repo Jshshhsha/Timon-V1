@@ -22,6 +22,6 @@ let handler = async (m, { conn, text }) => {
 }
 handler.help = ['wm <packname>|<author>']
 handler.tags = ['sticker']
-handler.command = /^wm$/i
+handler.command = /^(تغيير.حقوق|wm|سرقة)$/i
 
 export default handler
