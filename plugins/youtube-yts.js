@@ -20,11 +20,11 @@
      let listSections = []
    Object.values(dapet).map((v, index) => {
    listSections.push([index + ' ' + cmenub + ' ' + v.title, [
-           ['Video🎧', usedPrefix + 'ytmp4 ' + v.url , '\n⌚ *Duration:* ' + v.durationH + '\n⏲️ *Uploaded:* ' + v.publishedTime + '\n *Views:* ' + v.view + '\n📎 *Url:* ' + v.url],
-           ['Audio 🎧', usedPrefix + 'ytmp3 ' + v.url + ' yes', '\n⌚ *Duration:* ' + v.durationH + '\n⏲️ *Uploaded:* ' + v.publishedTime + '\n *Views:* ' + v.view + '\n📎 *Url:* ' + v.url]
+           ['( فيديو )(🎶)', usedPrefix + 'ytmp4 ' + v.url , '( أنـتـظـر مـن فـضـلـك ) ],
+           ['( صوتية )(🔊)', usedPrefix + 'ytmp3 ' + v.url + ' yes', '( أنـتـظـر مـن فـضـلـك )]
          ]])
    })
-   return conn.sendList(m.chat, '*───「 Youtube Search 」───*', `Please choose the type below...\n*Your requested text:* ${text}\n\nɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813`, `${fig}`, `YouTube Search 🔎`, listSections, m)
+    return conn.sendList(m.chat, '*───「 يـوتـيـوب 」───*', `( أنقر على كلمة البحث وأختر مقطع الفيديو الذي تريده )\n( ✨🐈‍⬛  ) *`, `${fig}`, `( البـحـث ) ( 🔎 )`, listSections2, m)
   } catch {
     await conn.reply(m.chat, global.wait, m)
     let cara = await yts(text)
@@ -32,16 +32,16 @@
     let listSections2 = []
     Object.values(depat).map((v, index) => {
       listSections2.push([index + ' ' + cmenub + ' ' + `${v.title}`, [
-              ['( (🎶) فـيـديـو )', usedPrefix + 'ytmp4 ' + `${v.url}` , '\n⌚ *Duration:* ' + `${v.timestamp}` + '\n📎 *Url:* ' + `${v.url}`],
-              ['( (🔊) ( صـوتـيـة )', usedPrefix + 'ytmp3 ' + `${v.url}` + ' yes', '\n⌚ *Duration:* ' + `${v.timestamp}` +  '\n📎 *Url:* ' + `${v.url}`]
+              ['فيديو🎧', usedPrefix + 'ytmp4 ' + `${v.url}` , '(  انتظر من فضلك )`]
+              ['صوتية 🎧', usedPrefix + 'ytmp3 ' + `${v.url}` + ' yes', '( انتظر من فضلك )}`]
             ]])
       })
-     return conn.sendList(m.chat, '*───「 Youtube Search 」───*', `Please choose the type below...\n*Your requested text:* ${text}\n\nɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813`, `${fig}`, `YouTube Search 🔎`, listSections2, m)
+     return conn.sendList(m.chat, '*───「 يـوتـيـوب 」───*', `( أنقر على كلمة البحث وأختر مقطع الفيديو الذي تريده )\n( ✨🐈‍⬛  ) *`, `${fig}`, `( البـحـث ) ( 🔎 )`, listSections2, m)
   }
  }
  handler.help = ['ytsearch <query>']
  handler.tags = ['internet']
- handler.command = /^yts(earch)?$/i
+ handler.command = /^(فيديو)$/i
  
  
  export default handler
