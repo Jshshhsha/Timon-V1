@@ -20,11 +20,11 @@
      let listSections = []
    Object.values(dapet).map((v, index) => {
    listSections.push([index + ' ' + cmenub + ' ' + v.title, [
-           ['Video🎧', usedPrefix + 'ytmp4 ' + v.url , '\n⌚ *Duration:* ' + v.durationH + '\n⏲️ *Uploaded:* ' + v.publishedTime + '\n *Views:* ' + v.view + '\n📎 *Url:* ' + v.url],
-           ['Audio 🎧', usedPrefix + 'ytmp3 ' + v.url + ' yes', '\n⌚ *Duration:* ' + v.durationH + '\n⏲️ *Uploaded:* ' + v.publishedTime + '\n *Views:* ' + v.view + '\n📎 *Url:* ' + v.url]
+           ['فيديو 🎧', usedPrefix + 'ytmp4 ' + v.url , '\n⌚ *المؤقت:* ' + v.durationH + '\n⏲️ *التحميل:* ' + v.publishedTime + '\n *Views:* ' + v.view + '\n📎 *الرابط :* ' + v.url],
+           ['صوتية 🎧', usedPrefix + 'ytmp3 ' + v.url + ' yes', '\n⌚ *المؤقت :* ' + v.durationH + '\n⏲️ *التحميل:* ' + v.publishedTime + '\n *Views:* ' + v.view + '\n📎 *الرابط:* ' + v.url]
          ]])
    })
-   return conn.sendList(m.chat, '*───「 Youtube Search 」───*', `Please choose the type below...\n*Your requested text:* ${text}\n\nɪᴋʀᴀᴛᴏs-ᴍᴅ-ᴠ1 • ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ\nowner: +92 347 0027813`, `${fig}`, `YouTube Search 🔎`, listSections, m)
+   return conn.sendList(m.chat, '*───「 Youtube Search 」───*', `تـم تـنـفـيـذ طـلـبـك...\n*الطلب الذي طلبته هو :* ${text}\n\nبـوت• تـيـمـون\nتواصل معنا عبر واتساب : +96891103640 | +967779589581`, `${fig}`, `( الـبـحـث )`, listSections1, m)
   } catch {
     await conn.reply(m.chat, global.wait, m)
     let cara = await yts(text)
