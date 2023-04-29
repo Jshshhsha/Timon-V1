@@ -32,8 +32,8 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 	let number = user.split('@')[0]
 	delete global.db.data.users[user]
         let pp = await conn.profilePictureUrl(number+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
-        let anu = `☑️ Successfully deleted *${conn.getName(number + '@s.whatsapp.net')}* from *DATABASE*`
- 	conn.sendHydrated(m.chat, anu, wm, pp, null,null, number, '🌹 BYE USERS', [[null,null],[null,null],[null,null]], m, {mentions: [number+'@s.whatsapp.net']})
+        let anu = `( ☑️ تم إلغاء الحظر بنجاح )  *${conn.getName(number + '@s.whatsapp.net')}*( من قاعدة البيانات )*`
+ 	conn.sendHydrated(m.chat, anu, wm, pp, null,null, number, '( 🐈‍⬛ تم إلغاء الحظر 🐈‍⬛ )', [[null,null],[null,null],[null,null]], m, {mentions: [number+'@s.whatsapp.net']})
   }
 }
 handler.help = ['deleteuser']
