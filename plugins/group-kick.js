@@ -22,7 +22,7 @@ handler.tags = ['group']
 handler.command = /^(طرد)$/i
 
 handler.owner = false
-handler.group = true
+handler.group = false
 handler.botAdmin = true
 
 export default handler
