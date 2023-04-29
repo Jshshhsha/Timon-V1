@@ -1,4 +1,4 @@
-هوlet handler = async (m, { conn, text }) => {
+let handler = async (m, { conn, text }) => {
     if (!text) throw 'Who wants to be unbanned?'
     let who
     if (m.isGroup) who = m.mentionedJid[0]
