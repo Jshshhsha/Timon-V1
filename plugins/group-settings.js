@@ -1,15 +1,15 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     let isClose = { // Switch Case Like :v
-        'open': 'not_announcement',
-        'close': 'announcement',
+        'فتح': 'not_announcement',
+        'قفل': 'announcement',
         'unlock': 'unlocked',
         'lock': 'locked',
     }[(args[0] || '')]
     if (isClose === undefined)
         throw `
 *Incorrect format! Example :*
-  *○ ${usedPrefix + command} close*
-  *○ ${usedPrefix + command} open*
+  *○ ${usedPrefix + command} قفل*
+  *○ ${usedPrefix + command} فتح*
   *○ ${usedPrefix + command} unlock*
   *○ ${usedPrefix + command} lock*
 `.trim()
@@ -17,7 +17,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['group *open / close*']
 handler.tags = ['group']
-handler.command = /^(group)$/i
+handler.command = /^(قروب)$/i
 
 handler.admin = true
 handler.botAdmin = true
