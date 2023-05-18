@@ -3,7 +3,27 @@
 
 
 
-`واتساب>المزيد>الاجهزه المرتبطه`***
+## ***التنصيب [`يمكنك التنصيب على هيريكو`]( https://dashboard.heroku.com/new?template=https://github.com/Raiz-2023/Raizel_v3)***
+
+  
+
+ 
+
+  <p align="center">  
+
+  <a href="https://telegra.ph/file/5fa44c1eee82661750fd5.jpg">
+
+    <img alt="secktor docs" height="300" src="https://telegra.ph/file/5fa44c1eee82661750fd5.jpg">
+
+    <h1 align="center"> ( تـيـمـون ) </h1>
+
+  </a>
+
+ 
+
+---
+
+1. ***عمل [سكانـQr](https://replit.com/@xIKRATOSx/scanner?v=1?outputonly=1&lite=1#index.js) | [`SESSION-ID`](https://replit.com/@xIKRATOSx/scanner?v=1?outputonly=1&lite=1#index.js) تصوير الكود.`واتساب>المزيد>الاجهزه المرتبطه`***
 
 2.  ***عمل [`فورك`](https://github.com/Jshshhsha/Timon-V1/fork)***
 
