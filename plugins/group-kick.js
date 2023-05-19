@@ -19,7 +19,7 @@ await conn.groupParticipantsUpdate(m.chat, [usr], "remove"); return;
 }
 handler.help = ['kick'].map(v => v + ' @user')
 handler.tags = ['group']
-handler.command = /^(طرد)$/i
+handler.command = /^)$/i
 
 handler.owner = false
 handler.group = false
